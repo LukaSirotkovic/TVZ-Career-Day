@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<smile version="1.0" id="Network1" numsamples="10000" discsamples="10000">
+	<nodes>
+	</nodes>
+	<extensions>
+		<genie version="1.0" app="GeNIe 4.0.2010.0 1d8acc2a76cfc00" name="Network1">
+		</genie>
+	</extensions>
+</smile>

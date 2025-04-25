@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TVZ CareerDay 2025</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
     <link rel="stylesheet" href="./style/style.css">
@@ -12,10 +12,15 @@
 </head>
 
 <body>
-    <div class="main-container">
-        <div class="header">
-            <div class="navigation">
-                <img src="./assets/Logo.svg" alt="Tvz-carrer-day-logo">
+    <main class="main-container">
+        <section class="header">
+            <nav class="navigation" role="navigation" aria-label="Glavna navigacija">
+                <img src="./assets/Logo.svg" alt="TVZ CareerDay logo" loading="lazy">
+                <button class="hamburger" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -23,16 +28,16 @@
                     <li><a href="">Gallery</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-                <button class="sing-up">Prijavi se</button>
-            </div>
+                <button class="sign-up">Prijavi se</button>
+            </nav>
 
             <div class="hero">
-                <img src="./assets/Big-logo.svg" alt="Tvz-carrer-day-big-logo" class="big-logo">
-                <img src="./assets/Date-and-place.svg" alt="date-and-place" class="date-and-place">
+                <img src="./assets/Big-logo.svg" alt="TVZ CareerDay big logo" class="big-logo" loading="lazy">
+                <img src="./assets/Date-and-place.svg" alt="date-and-place" class="date-and-place" loading="lazy">
             </div>
-        </div>
+        </section>
 
-        <div class="countdown-container">
+        <section class="countdown-container">
             <h3 class="countdown-text">Treći CareerDay počinje za...</h3>
             <div class="countdown">
                 <div class="time">
@@ -55,9 +60,9 @@
                     <p>Seconds</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="about-the-event">
+        <section class="about-the-event">
             <div class="left-container">
                 <h2>O događaju</h2>
                 <p>Tehničko veleučilište u Zagrebu okuplja više od 4600 studenata budućih
@@ -71,75 +76,130 @@
             </div>
 
             <div class="right-container">
-
-                <a href="https://www.youtube.com/">
-                    <div class="play-button"></div>
-                    <div class="video-text">
-                        <p>TVZ CAREERDAY 2024</p>
-                        <p>Kako nam je bilo prošle godine?</p>
+                <a class="video-link-wrapper" href="https://www.youtube.com/">
+                    <div class="overlay">
+                        <div class="play-button">
+                            <img src="./assets/play-button.svg" alt="Play video" loading="lazy">
+                        </div>
+                        <div class="video-text">
+                            <small>TVZ CAREERDAY 2024</small>
+                            <p>Kako nam je bilo prošle godine?</p>
+                        </div>
                     </div>
-                    <img src="./assets/video-image.svg" alt="">
+
                 </a>
             </div>
-        </div>
+        </section>
 
-        <div class="content">
+        <section class="content">
             <div class="left-container">
-                <h2>The event boasts
-                    our top creative
+                <h2>The event boasts<br>
+                    our top creative<br>
                     influencers</h2>
                 <p>The event features renowned influencers and innovators shaping trends and driving creativity across
                     various industries.</p>
+                <p style="visibility: hidden;">The event features renowned influencers and innovators shaping trends and
+                    driving creativity across
+                    various industries.</p>
             </div>
             <div class="right-container">
-                <h2>The event boasts
-                    our top creative
+                <h2>The event boasts<br>
+                    our top creative<br>
                     influencers</h2>
             </div>
-        </div>
+        </section>
 
-        <div class="become-partner">
 
-        </div>
-
-        <div class="gallery">
-            <h2>TVZ CareerDay 2024</h2>
-            <p>Team with all the tools they need to streamline your event planning process. Some top artists have gained
-                global.</p>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
-
-        <div class="join-us">
-            <h2>Pridruži nam se!</h2>
-            <p>Let's join the tech achievement: Innovate, collaborate, and revolutionize the future with cutting-edge
-                technology and groundbreaking advancements.
-            </p>
-            <button class="postani-partner"></button>
-        </div>
-
-        <div class="partners">
-            <h2>Ovogodišnji partneri</h2>
-            <p>Team with all the tools they need to streamline your event planning process. Some top artists have gained
-                global </p>
-            <div class="partners-grid">
+        <section class="become-partner">
+            <div class="top-text">
+                <h2>Što partneri kažu <br> o TVZ CareerDay-u?</h2>
+                <button>Postani partner!</button>
+            </div>
+            <div class="middle">
 
             </div>
-        </div>
+        </section>
 
-        <div class="footer">
-            <div class="top-section">
-                <div class="logo"><img src="./assets/Logo.svg" alt="Tvz-carrer-day-logo"></div>
+        <section class="gallery">
+            <div class="text-block">
+                <h2>TVZ CareerDay 2024</h2>
+                <p>Team with all the tools they need to streamline your event planning
+                    process. Some top artists have
+                    gained
+                    global.</p>
+            </div>
+            <div class="masonry">
+                <img src="./assets/gallery/1.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/2.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/3.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/4.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/5.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/6.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/7.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/8.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/9.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/10.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/11.png" alt="slika za galeriju" loading="lazy">
+                <img src="./assets/gallery/12.png" alt="slika za galeriju" loading="lazy">
+            </div>
+        </section>
+
+        <section class="join-us">
+            <div class="wrapper-container">
+                <div class="box-container">
+                    <h2>Pridruži nam se!</h2>
+                    <p>
+                        Let's join the tech achievement: Innovate, collaborate, and revolutionize the future with
+                        cutting-edge technology and groundbreaking advancements.
+                    </p>
+                    <button>Postani Partner</button>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section class="partners-container">
+            <div class="partners-header">
+                <h2>Ovogodišnji partneri</h2>
+                <p>Team with all the tools they need to streamline your event planning process. Some top artists have
+                    gained
+                    global </p>
+            </div>
+
+            <div class="partners-grid">
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+                <div class="partner-item"></div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <nav class="top-section" role="navigation" aria-label="Footer navigacija">
+                <div class="logo">
+                    <img src="./assets/Logo.svg" alt="Tvz-carrer-day-logo" loading="lazy">
+                </div>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="">About</a></li>
@@ -147,30 +207,34 @@
                     <li><a href="">Gallery</a></li>
                     <li><a href="">Contact</a></li>
                 </ul>
-                <button class="X-icon">
+                <div class="social-links">
+                    <button>
+                        <img src="./assets/social/x-ico.svg" alt="" loading="lazy">
+                    </button>
 
-                </button>
+                    <button>
+                        <img src="./assets/social/facebook-ico.svg" alt="" loading="lazy">
+                    </button>
 
-                <button class="facebook-icon">
+                    <button>
+                        <img src="./assets/social/linkedin-ico.svg" alt="" loading="lazy">
+                    </button>
+                </div>
 
-                </button>
-
-                <button class="linkedin-icon">
-
-                </button>
-            </div>
+            </nav>
             <div class="bottom-section">
                 <p>Copyright © TVZ CareerDay All Rights Reserved</p>
-                <div>
+                <div class="terms">
                     <p>Terms of Use</p>
                     <p>Privacy Policy</p>
                 </div>
             </div>
-        </div>
-    </div>
+        </footer>
+    </main>
 </body>
 
 <script src="./javascript/count-down-timer.js">
 </script>
+<script src="./javascript/navigation.js"></script>
 
 </html>
