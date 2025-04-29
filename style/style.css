@@ -90,7 +90,7 @@ li a {
 
 li a:hover {
     transition: var(--classic-transition);
-    
+
     color: var(--primary-yellow);
     cursor: pointer;
 }
@@ -178,7 +178,7 @@ li a:hover {
     width: 100%;
 }
 
-.header button{
+.header button {
     padding: 10px 20px;
     border: none;
     background: var(--primary-yellow);
@@ -195,7 +195,7 @@ li a:hover {
     cursor: pointer;
 }
 
-.header p{
+.header p {
     color: white;
     font-size: 20px;
     font-weight: 400;
@@ -628,33 +628,42 @@ footer {
 .social-links {
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 10px;
 }
 
-.social-links button {
+.social-links a {
     width: 42px;
     height: 42px;
     border: 2px solid var(--primary-yellow);
     border-radius: 50%;
-    padding: 10px;
     background: transparent;
-    transition: var(--classic-transition);
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background 0.3s ease-in-out;
 }
 
-.social-links button:hover {
-    transition: var(--classic-transition);
-    cursor: pointer;
+.social-links a:hover {
     background: var(--primary-yellow);
 }
 
-.social-links button img {
-    width: 22px;
-    height: 22px;
+.social-links img,
+.social-links svg {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    fill: white;
 }
+
+/* Optional: style only inline SVGs */
+.social-links svg {
+    fill: var(--white);
+    transition: fill 0.3s ease-in-out;
+}
+
+
+
+
 
 .bottom-section {
     color: var(--gray-light);
