@@ -1,33 +1,74 @@
 @media (min-width: 2560px) {
     :root {
         --padding-side-main: 500px;
+        --padding-side-small: 800px;
     }
+    
 }
 
 @media (max-width: 1399px) {
     :root {
         --padding-side-main: 100px;
+        --padding-side-small: 200px;
+    }
+    
+    .what-to-expect{
+        flex-wrap: wrap;
     }
 }
 
 @media (max-width: 1199px) {
     :root {
         --padding-side-main: 80px;
+        --padding-side-small: 150px;
+
+
+        --font-base: 14px;
+        --font-md: 16px;
+        --font-lg: 18px;
+        --font-xl: 20px;
+        --font-2xl: 28px;
+        --font-3xl: 32px;
+        --font-4xl: 40px;
+        --font-5xl: 48px;
+        --font-6xl: 56px;
     }
+
+
 }
 
 @media (max-width: 991px) {
     :root {
         --padding-side-main: 20px;
+        --padding-side-small: 100px;
+
+        --font-base: var(--font-sm);
+        --font-md: 14px;
+        --font-lg: 16px;
+        --font-xl: 18px;
+        --font-2xl: 24px;
+        --font-3xl: 28px;
+        --font-4xl: 32px;
+        --font-5xl: 40px;
+        --font-6xl: 50px;
     }
-
-
 }
 
 @media (max-width: 850px) {
 
     :root {
         --padding-side-main: 50px;
+        --padding-side-small: 70px;
+
+        --font-base: 13px;
+        --font-md: 14px;
+        --font-lg: 15px;
+        --font-xl: 16px;
+        --font-2xl: 20px;
+        --font-3xl: 24px;
+        --font-4xl: 28px;
+        --font-5xl: 34px;
+        --font-6xl: 42px;
     }
 
     .what-to-expect-box:nth-child(2)::before,
@@ -106,6 +147,17 @@
 @media (max-width: 425px) {
     :root {
         --padding-side-main: 30px;
+        --padding-side-small: 70px;
+
+        --font-base: 12px;
+        --font-md: 13px;
+        --font-lg: 14px;
+        --font-xl: 15px;
+        --font-2xl: 18px;
+        --font-3xl: 20px;
+        --font-4xl: 24px;
+        --font-5xl: 30px;
+        --font-6xl: 36px;
     }
 
     .header .sign-up {
