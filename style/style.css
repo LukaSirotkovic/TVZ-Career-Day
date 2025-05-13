@@ -741,7 +741,7 @@ button:hover {
 
 .job-oportunity .right-container {
     margin-bottom: -150px;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -831,7 +831,10 @@ button:hover {
 .partner-item img,
 .koncar img {
     max-width: 100%;
+    width: 100%;
     height: auto;
+    min-height: 40px;
+    max-height: 100px;
     transition: transform var(--classic-transition), box-shadow var(--classic-transition);
 }
 
