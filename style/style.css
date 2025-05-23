@@ -781,7 +781,7 @@ button:hover {
 
 .partners-container {
     padding: var(--padding-top-bottom) var(--padding-side-main);
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -829,7 +829,8 @@ button:hover {
 }
 
 .partner-item img,
-.koncar img {
+.koncar img,
+.partner-bottom img {
     max-width: 100%;
     width: 100%;
     height: auto;
@@ -839,8 +840,31 @@ button:hover {
 }
 
 .partner-item img:hover,
-.koncar img:hover {
+.koncar img:hover,
+.partner-bottom img:hover {
     transform: scale(1.05);
+}
+
+.bottom-section-partners {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 100px;
+}
+
+.partner-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.partner-bottom h2 {
+    font-size: var(--font-xl);
+    font-weight: 700;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0.02em;
 }
 
 
