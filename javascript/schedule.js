@@ -50,7 +50,6 @@ function positionSessions() {
         const topOffset = (start - scheduleStart) * pixelsPerMinute;
         const height = duration * pixelsPerMinute;
 
-        console.log(duration, pixelsPerMinute, height, topOffset);
         session.style.top = `${topOffset}px`;
         session.style.height = `${height}px`;
     });

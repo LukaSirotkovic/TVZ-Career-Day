@@ -1,6 +1,5 @@
 window.addEventListener('DOMContentLoaded', () => {
     const overlay = document.querySelector('.right-box .overlay');
-
     if (!overlay) return;
 
     setInterval(() => {
@@ -8,6 +7,6 @@ window.addEventListener('DOMContentLoaded', () => {
 
         setTimeout(() => {
             overlay.classList.remove('active');
-        }, 1500); // prikaz 1.5s
-    }, 5000); // svakih 5s
+        }, 2000);
+    }, 5000);
 });

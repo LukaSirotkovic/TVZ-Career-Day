@@ -666,7 +666,7 @@ button:hover {
     inset: 0;
     background: rgba(0, 0, 0, 0.6);
     color: #fff;
-    font-size: 1.5rem;
+    font-size: var(--font-xl);
     font-weight: bold;
     display: flex;
     align-items: center;
