@@ -1,10 +1,13 @@
-const overlay = document.querySelector('.right-box .overlay');
+window.addEventListener('DOMContentLoaded', () => {
+    const overlay = document.querySelector('.right-box .overlay');
 
-setInterval(() => {
-    overlay.classList.add('active');
+    if (!overlay) return;
 
-    // ukloni "active" nakon 1.5 sekunde da nestane
-    setTimeout(() => {
-        overlay.classList.remove('active');
-    }, 1500);
-}, 5000);
+    setInterval(() => {
+        overlay.classList.add('active');
+
+        setTimeout(() => {
+            overlay.classList.remove('active');
+        }, 1500); // prikaz 1.5s
+    }, 5000); // svakih 5s
+});
